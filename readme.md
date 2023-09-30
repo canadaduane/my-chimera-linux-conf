@@ -52,3 +52,10 @@ dconf write /org/gnome/shell/keybindings/toggle-overview "['<Super>space']"
 ## Gnome Extensions:
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/)
 - [V-Shell](https://extensions.gnome.org/extension/5177/vertical-workspaces/)
+
+## Potential solutions to dotfiles in home dir
+
+- [libetc](https://ordiluc.net/fs/libetc/README) intercepts file operations via `LD_PRELOAD`
+- [boxxy](https://github.com/queer/boxxy) put each app in a box and configure its dotfiles
+- [fakehome](https://tomwh.uk/blog/posts/2020/03/28/fake-home-prison/) modifies `$HOME` on a per-app basis
+
